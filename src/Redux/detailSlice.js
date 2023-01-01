@@ -8,7 +8,6 @@ const getDetail = createAsyncThunk('crypto/Detail', async (id) => {
   const { coin } = detail;
   return coin;
 });
-
 const initialState = [];
 const detailSlice = createSlice({
   name: 'detail',
@@ -18,7 +17,6 @@ const detailSlice = createSlice({
     builder.addCase(getDetail.fulfilled, (state, action) => action.payload);
   },
 });
-
 const { actions, reducer } = detailSlice;
 export { actions, getDetail };
 export default reducer;
