@@ -9,7 +9,7 @@ const getData = createAsyncThunk('crypto/getData', async () => {
 
 const initialState = [];
 const cryptoSlice = createSlice({
-  name: 'crypto',
+  name: 'crypto',,
   initialState,
   reducers: {},
   extraReducers: (builder) => {
