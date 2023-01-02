@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { BsSearch } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import { getData } from '../Redux/cryptoSlice';
-import search from '../img/search.png';
 import Navbar from './Navbar';
+import '../style/Home.css';
 
 function Home() {
   const dispatch = useDispatch();
@@ -38,22 +39,22 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className="">
-        <div className="">
-          <p className="">Here you can find</p>
-          <p className="">
+      <div className="Header-home">
+        <div className="Header-container">
+          <p className="Header-title">Here you can find</p>
+          <p className="Header-info">
             Any information about crypto!
           </p>
         </div>
       </div>
 
-      <div className="">
-        <div className="">
-          <span className="">
-            <img src={search} alt="" />
+      <div className="search">
+        <div className="search-container">
+          <span className="search-icon">
+            <BsSearch />
           </span>
           <input
-            className=""
+            className="search-input"
             type="text"
             placeholder="Search here"
             value={searchcoin}
