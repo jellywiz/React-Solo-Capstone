@@ -47,7 +47,6 @@ function Home() {
           </p>
         </div>
       </div>
-
       <div className="search">
         <div className="search-container">
           <span className="search-icon">
@@ -65,7 +64,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="">
+      <div className="cards">
         {searched.map((asset, index) => (
           <Link
             className={`Cryptos__Item${(index + 1) % 4}`}

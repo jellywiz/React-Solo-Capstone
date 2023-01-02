@@ -68,3 +68,13 @@
   margin: 0 auto;
   padding: 1rem;
 }
+
+.search-input::placeholder {
+  color: #cb1c8d;
+  font-size: 3vw;
+  font-weight: 400;
+}
+
+.search-input:focus {
+  outline: none;
+}
