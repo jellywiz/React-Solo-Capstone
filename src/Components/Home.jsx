@@ -65,30 +65,30 @@ function Home() {
       </div>
 
       <div className="cards">
-        {searched.map((asset, index) => (
+        {searched.map((asset) => (
           <Link
-            className={`Cryptos__Item${(index + 1) % 4}`}
+            className="Cryptos__Item"
             key={asset.id}
             to={`crypto/${asset.id}`}
             style={{ textDecoration: 'none' }}
           >
-            <div className="">
+            <div className="imgContainer">
               <div>
-                <img className="" src={asset.icon} alt="" />
+                <img className="img-crypto" src={asset.icon} alt="" />
               </div>
             </div>
-            <div className="">
+            <div className="details">
               <p>
                 Name:
                 {' '}
                 {asset.name}
               </p>
-              <p className="">
+              <p>
                 Symbol:
                 {' '}
                 {asset.symbol}
               </p>
-              <p className="">
+              <p className="pricing">
                 Current Price: ~
                 {formatter.format(
                   Math.round(asset.price) === 0
