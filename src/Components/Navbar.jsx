@@ -18,8 +18,8 @@ function Navbar({ back = false }) {
         )}
       </nav>
       <div className="Navbar-header">
-        <h1>Crypto</h1>
         <img src={logoNav} alt="" />
+        <h1>Crypto</h1>
         <h1>World!</h1>
       </div>
     </div>
