@@ -1,3 +1,4 @@
+/* stylelint-disable declaration-colon-newline-after */
 .Header-home {
   width: 100%;
   background-image: url(../img/background.jpg);
@@ -28,6 +29,7 @@
   color: white;
   font-size: 5vw;
   font-weight: 400;
+  text-shadow: 2px 2px 2px rgb(255, 255, 255);
 }
 
 .search {
@@ -85,6 +87,15 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  background: linear-gradient(
+    135deg,
+    #230cf5 10%,
+    rgb(53, 35, 253) 40%,
+    rgb(67, 80, 255) 60%,
+    rgb(99, 117, 250) 100%
+  );
+  padding: 1rem 0;
+  border-radius: 20px;
 }
 
 .Cryptos__Item {
@@ -97,7 +108,13 @@
   align-items: center;
   text-decoration: none;
   color: white;
-  background: linear-gradient(135deg, #f50ca3 10%, rgb(253, 35, 249) 40%, rgb(255, 67, 246) 60%, rgb(250, 99, 180) 100%);
+  background: linear-gradient(
+    135deg,
+    #f50ca3 10%,
+    rgb(253, 35, 249) 40%,
+    rgb(255, 67, 246) 60%,
+    rgb(250, 99, 180) 100%
+  );
   border: rgb(255, 0, 238) solid 1px;
   border-radius: 1rem;
 }
