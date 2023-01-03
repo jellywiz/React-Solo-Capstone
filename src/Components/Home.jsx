@@ -11,7 +11,7 @@ function Home() {
   const assetList = useSelector((state) => state.crypto);
   useEffect(() => {
     if (!assetList.length) {
-      dispatch(getData());
+      dispatch(getData(16));
     }
   });
   const [searchcoin, setSearchcoin] = useState('');
