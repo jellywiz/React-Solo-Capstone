@@ -1,27 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import BackIcon from '../img/backimg.jpg';
+import { IoMdArrowRoundBack } from 'react-icons/io';
 import logoNav from '../img/proton-xpr-logo.svg';
 import '../style/Navbar.css';
 
 function Navbar({ back = false }) {
   return (
     <div>
-      <nav className="">
+      <nav className="Navbar">
         {back ? (
-          <Link to="/React-Solo-Capstone/" className="NavBar__Back">
-            <img src={BackIcon} alt="" />
+          <Link to="/React-Solo-Capstone/">
+            <IoMdArrowRoundBack className="BackIcon" />
           </Link>
         ) : (
           ''
         )}
-      </nav>
-      <div className="Navbar-header">
         <img src={logoNav} alt="" />
-        <h1>Crypto</h1>
-        <h1>World!</h1>
-      </div>
+        <h1>World of Crypto</h1>
+      </nav>
     </div>
   );
 }

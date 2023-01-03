@@ -1,5 +1,5 @@
-.Navbar-header {
-  width: 100%;
+.Navbar {
+  width: auto;
   background-color: #cb1c8d;
   padding: 0.8rem 0;
   display: flex;
@@ -8,13 +8,23 @@
   gap: 8px;
 }
 
-.Navbar-header > h1 {
+.BackIcon {
+  color: #4b56d2;
+  background: white;
+  position: absolute;
+  top: 2rem;
+  left: 0.8rem;
+  border-radius: 20%;
+  padding: 0.5rem;
+}
+
+.Navbar > h1 {
   color: #4b56d2;
   text-shadow: 2px 2px 2px rgb(255, 255, 255);
   font-weight: bold;
 }
 
-.Navbar-header > img {
+.Navbar > img {
   width: 2.5rem;
   height: 2.5rem;
   margin: 0 0.5rem;
