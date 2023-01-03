@@ -148,7 +148,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add New Coins]**
+- [ ] **[Filter by Value]**
+- [ ] **[About Page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,7 +165,8 @@ If you like this project feel free to leave a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for motivating me to build this beautiful project
+- I would like to thank Microverse for motivating me to build this beautiful project
+- I would like to thank Nelson Sakwa on Behance for the [Original design idea](https://www.behance.net/sakwadesignstudio).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
