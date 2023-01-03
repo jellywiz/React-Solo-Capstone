@@ -1,0 +1,344 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Detail component Rendered Detail component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <nav
+          class="Navbar"
+        >
+          <a
+            href="/React-Solo-Capstone/"
+          >
+            <svg
+              class="BackIcon"
+              fill="currentColor"
+              height="1em"
+              stroke="currentColor"
+              stroke-width="0"
+              viewBox="0 0 512 512"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M401.4 224h-214l83-79.4c11.9-12.5 11.9-32.7 0-45.2s-31.2-12.5-43.2 0L89 233.4c-6 5.8-9 13.7-9 22.4v.4c0 8.7 3 16.6 9 22.4l138.1 134c12 12.5 31.3 12.5 43.2 0 11.9-12.5 11.9-32.7 0-45.2l-83-79.4h214c16.9 0 30.6-14.3 30.6-32 .1-18-13.6-32-30.5-32z"
+              />
+            </svg>
+          </a>
+          <img
+            alt=""
+            src="proton-xpr-logo.svg"
+          />
+          <h1>
+            World of Crypto
+          </h1>
+        </nav>
+      </div>
+      <div
+        class="Detail-container"
+      >
+        <div
+          class="Detail-icon"
+        >
+          <img
+            alt=""
+            class="detail-icon-coin"
+          />
+          <p>
+            ~
+            $NaN
+          </p>
+        </div>
+        <br />
+         
+        <br />
+         
+        <br />
+        <div
+          class="Detail"
+        >
+          <div
+            class="detail-background"
+          >
+            <span>
+              <b>
+                Coin name :
+              </b>
+            </span>
+            <span />
+          </div>
+          <div
+            class="detail-background"
+          >
+            <span>
+              <b>
+                Coin symbol :
+              </b>
+            </span>
+            <span />
+          </div>
+          <div
+            class="detail-background"
+          >
+            <span>
+              <b>
+                Ranking :
+              </b>
+            </span>
+            <span />
+          </div>
+          <div
+            class="detail-background"
+          >
+            <span>
+              <b>
+                Price :
+              </b>
+            </span>
+            <span>
+               
+              $NaN
+            </span>
+          </div>
+          <div
+            class=""
+          >
+            <span>
+               
+              <b>
+                Coin Cap :
+              </b>
+            </span>
+            <span>
+               
+              $NaN
+            </span>
+          </div>
+          <div
+            class=""
+          >
+            <span>
+               
+              <b>
+                Price change hour :
+              </b>
+            </span>
+            <span>
+               
+            </span>
+          </div>
+          <div
+            class=""
+          >
+            <span>
+               
+              <b>
+                Supply :
+              </b>
+            </span>
+            <span>
+              ~
+              $NaN
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <nav
+        class="Navbar"
+      >
+        <a
+          href="/React-Solo-Capstone/"
+        >
+          <svg
+            class="BackIcon"
+            fill="currentColor"
+            height="1em"
+            stroke="currentColor"
+            stroke-width="0"
+            viewBox="0 0 512 512"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M401.4 224h-214l83-79.4c11.9-12.5 11.9-32.7 0-45.2s-31.2-12.5-43.2 0L89 233.4c-6 5.8-9 13.7-9 22.4v.4c0 8.7 3 16.6 9 22.4l138.1 134c12 12.5 31.3 12.5 43.2 0 11.9-12.5 11.9-32.7 0-45.2l-83-79.4h214c16.9 0 30.6-14.3 30.6-32 .1-18-13.6-32-30.5-32z"
+            />
+          </svg>
+        </a>
+        <img
+          alt=""
+          src="proton-xpr-logo.svg"
+        />
+        <h1>
+          World of Crypto
+        </h1>
+      </nav>
+    </div>
+    <div
+      class="Detail-container"
+    >
+      <div
+        class="Detail-icon"
+      >
+        <img
+          alt=""
+          class="detail-icon-coin"
+        />
+        <p>
+          ~
+          $NaN
+        </p>
+      </div>
+      <br />
+       
+      <br />
+       
+      <br />
+      <div
+        class="Detail"
+      >
+        <div
+          class="detail-background"
+        >
+          <span>
+            <b>
+              Coin name :
+            </b>
+          </span>
+          <span />
+        </div>
+        <div
+          class="detail-background"
+        >
+          <span>
+            <b>
+              Coin symbol :
+            </b>
+          </span>
+          <span />
+        </div>
+        <div
+          class="detail-background"
+        >
+          <span>
+            <b>
+              Ranking :
+            </b>
+          </span>
+          <span />
+        </div>
+        <div
+          class="detail-background"
+        >
+          <span>
+            <b>
+              Price :
+            </b>
+          </span>
+          <span>
+             
+            $NaN
+          </span>
+        </div>
+        <div
+          class=""
+        >
+          <span>
+             
+            <b>
+              Coin Cap :
+            </b>
+          </span>
+          <span>
+             
+            $NaN
+          </span>
+        </div>
+        <div
+          class=""
+        >
+          <span>
+             
+            <b>
+              Price change hour :
+            </b>
+          </span>
+          <span>
+             
+          </span>
+        </div>
+        <div
+          class=""
+        >
+          <span>
+             
+            <b>
+              Supply :
+            </b>
+          </span>
+          <span>
+            ~
+            $NaN
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
