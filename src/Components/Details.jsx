@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { getDetail } from '../Redux/detailSlice';
 import Navbar from './Navbar';
+import '../style/Details.css';
 
 const Details = () => {
   const data = useParams();
@@ -19,9 +20,9 @@ const Details = () => {
   return (
     <>
       <Navbar back />
-      <div className="">
-        <div className="">
-          <img src={detail.icon} alt="" />
+      <div className="Detail-container">
+        <div className="Detail-icon">
+          <img className="detail-icon-coin" src={detail.icon} alt="" />
           <p>
             ~
             {formatter.format(
@@ -31,21 +32,22 @@ const Details = () => {
             )}
           </p>
         </div>
-        <div className="">
-          <div className="">
-            <span>Coin name :</span>
+        <br /> <br /> <br />
+        <div className="Detail">
+          <div className="detail-background">
+            <span><b>Coin name :</b></span>
             <span>{detail.name}</span>
           </div>
-          <div className="">
-            <span>Coin symbol :</span>
+          <div className="detail-background">
+            <span><b>Coin symbol :</b></span>
             <span>{detail.symbol}</span>
           </div>
-          <div className="">
-            <span>Ranking :</span>
+          <div className="detail-background">
+            <span><b>Ranking :</b></span>
             <span>{detail.rank}</span>
           </div>
-          <div className="">
-            <span>Price :</span>
+          <div className="detail-background">
+            <span><b>Price :</b></span>
             <span>
               {' '}
               {formatter.format(
@@ -56,7 +58,7 @@ const Details = () => {
             </span>
           </div>
           <div className="">
-            <span> Coin Cap :</span>
+            <span> <b>Coin Cap :</b></span>
             <span>
               {' '}
               {formatter.format(
@@ -67,11 +69,11 @@ const Details = () => {
             </span>
           </div>
           <div className="">
-            <span> Price change hour :</span>
+            <span> <b>Price change hour :</b></span>
             <span> {detail.priceChange1h}</span>
           </div>
           <div className="">
-            <span> Supply :</span>
+            <span> <b>Supply :</b></span>
             <span>
               ~
               {formatter.format(

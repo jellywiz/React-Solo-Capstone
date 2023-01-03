@@ -67,7 +67,7 @@ function Home() {
       <div className="cards">
         {searched.map((asset) => (
           <Link
-            className="Cryptos__Item"
+            className="card-item"
             key={asset.id}
             to={`crypto/${asset.id}`}
             style={{ textDecoration: 'none' }}
