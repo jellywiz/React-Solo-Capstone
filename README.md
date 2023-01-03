@@ -70,7 +70,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://jellywiz.github.io/React-Solo-Capstone/)
-- [Video Link](https://jellywiz.github.io/React-Solo-Capstone/)
+- [Video Link](https://www.loom.com/share/29625a5956db48c79340bc2c27b7863c)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
