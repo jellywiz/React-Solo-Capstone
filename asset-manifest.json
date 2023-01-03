@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Solo-Capstone/static/css/main.4edf97e9.css",
+    "main.js": "/React-Solo-Capstone/static/js/main.dd125c98.js",
+    "static/media/background.jpg": "/React-Solo-Capstone/static/media/background.5e6f9cf6b92780a15129.jpg",
+    "static/media/proton-xpr-logo.svg": "/React-Solo-Capstone/static/media/proton-xpr-logo.6230f1bc8cf14654b34230869d118099.svg",
+    "index.html": "/React-Solo-Capstone/index.html",
+    "main.4edf97e9.css.map": "/React-Solo-Capstone/static/css/main.4edf97e9.css.map",
+    "main.dd125c98.js.map": "/React-Solo-Capstone/static/js/main.dd125c98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4edf97e9.css",
+    "static/js/main.dd125c98.js"
+  ]
+}
